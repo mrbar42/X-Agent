@@ -1,0 +1,23 @@
+{
+  "name": "X-Agent",
+  "version": "0.3",
+  "manifest_version": 2,
+  "description": "Modify you user agent including javascript object",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["xagentScript.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": ["xagent.js"]
+}
