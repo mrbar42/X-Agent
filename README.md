@@ -13,9 +13,9 @@ For fresh user agents visit: <a href='https://techblog.willshouse.com/2012/01/03
 ## Structure
 
 - `manifest.json`  Standard extension configuration file 
-- `background.js`  Contains the outgoing request sniffer and modify header according to `USERAGENT' variable value 
+- `background.js`  Contains the outgoing request sniffer and modify header according to the variable on page head 
 - `xagentScript.js`  Small content script that inject the actual script
-- `xagent.js`  Modifies the javascript ```js navigator``` object according to the variables in the top of the script
+- `xagent.js`  Modifies the javascript `navigator` object according to the variables in the top of the script
  
  
 # Usage
