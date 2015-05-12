@@ -27,4 +27,4 @@ For fresh user agents visit: <a href='https://techblog.willshouse.com/2012/01/03
  5. Click `Load unpacked extension...`
  6. Select the folder you unpacked the file to
  7. Optional: check 'Allow in incognito' (feel free to review the code before you do so)
- 8. That's it! check results by visiting <a href='https://techblog.willshouse.com/2012/01/03/most-common-user-agents/'>Most common User Agents </a> 
+ 8. That's it! check results by visiting <a href='https://techblog.willshouse.com/2012/01/03/most-common-user-agents/'>Most common User Agents</a> for outgoing requests and <a href="http://www.quirksmode.org/js/detect.html">http://www.quirksmode.org/js/detect.html</a> for javascript object.
